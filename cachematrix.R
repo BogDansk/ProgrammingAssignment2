@@ -11,7 +11,7 @@ makeCacheMatrix <- function(x = matrix()) {
 cacheSolve <- function(x, ...) {
   if (identical(x,matrix)) {
     if (!is.null(inv_mat) ) {
-      return(inv)
+      return(inv_mat)
     }
   }
 }
